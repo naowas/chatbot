@@ -28,6 +28,13 @@
      "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
      "responses": ["We are open 7am-4pm Monday-Friday!"],
      "context_set": ""
-    }
+    },
+
+    {"tag": "linux",
+        "patterns": ["ubuntu"],
+        "responses": ["kbuntu!", "lubuntu", "ubutu LTS"],
+        "context_set": ""
+       }
+
 ]
 }
